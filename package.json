@@ -1,0 +1,14 @@
+{
+  "name": "medical-qr",
+  "version": "1.0.0",
+  "description": "Medical Prescription QR Generator",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "qrcode": "^1.5.3"
+  }
+}
